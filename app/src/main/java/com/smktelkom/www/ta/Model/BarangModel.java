@@ -6,13 +6,12 @@ import android.graphics.drawable.Drawable;
  * Created by Farhan on 12/04/2018.
  */
 
-public class Barang {
+public class BarangModel {
     public String barang, kelas, tanggal;
     public Drawable foto;
 
-    public Barang(String judul, String deskripsi, Drawable foto) {
+    public BarangModel(String barang, String tanggal, Drawable foto) {
         this.barang = barang;
-        this.kelas = kelas;
         this.tanggal = tanggal;
         this.foto = foto;
     }
